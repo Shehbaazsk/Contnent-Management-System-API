@@ -20,7 +20,7 @@ class User(AbstractBaseUser):
     first_name=models.CharField(max_length=30)
     last_name=models.CharField(max_length=30)
     email=models.EmailField(max_length=255, unique=True)
-    mobile_no=models.IntegerField()
+    mobile_no=models.BigIntegerField()
     user_role = models.CharField(max_length=20, choices=USER_ROLES.choices, default=USER_ROLES.AUTHOR)
     address = models.TextField(null=True, blank=True)
     # city = models.ForeignKey(City, on_delete=models.CASCADE)

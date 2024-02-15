@@ -6,7 +6,7 @@ Contnent-Management-System-API
 
 * Then, Git clone this repo to your PC
     ```bash
-        $ git clone https://github.com/Shehbaazsk/Contnent-Management-System-API.git
+        $ git clone https://github.com/Shehbaazsk/Contnent-Management-System-API.git .
     ```
 
 * #### Dependencies
